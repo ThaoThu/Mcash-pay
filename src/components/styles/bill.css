@@ -1,0 +1,14 @@
+.bill-pay {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.bill-pay .login-legend {
+  margin: 20px;
+  width: 137px;
+}
+.bill-pay .my-fieldset {
+  border: 2px solid;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}

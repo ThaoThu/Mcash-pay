@@ -1,0 +1,8 @@
+.coin-type {
+  margin-top: 30px;
+}
+.coin-type__description {
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}

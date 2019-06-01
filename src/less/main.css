@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mr-50 {
+  margin-right: 50px;
+}
+.w-100 {
+  width: 100%;
+}
+.d-block {
+  display: block;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.f-left {
+  float: left;
+}

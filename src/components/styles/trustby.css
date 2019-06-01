@@ -1,0 +1,8 @@
+.trust-by__title {
+  margin: 30px 0;
+}
+@media (max-width: 991px) {
+  .primary-logo .col-4 {
+    margin-bottom: 20px;
+  }
+}

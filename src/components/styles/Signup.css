@@ -1,0 +1,12 @@
+.signup-wrapper {
+  border: 1px solid black;
+  margin-top: 100px;
+  padding: 10px;
+}
+.signup-wrapper .signup-label {
+  margin-bottom: 10px;
+  display: block;
+}
+.signup-wrapper .input-code {
+  width: 85px;
+}

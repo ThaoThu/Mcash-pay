@@ -1,0 +1,15 @@
+.sign-in {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.sign-in__title {
+  margin-bottom: 50px;
+}
+.sign-in__btn {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.sign-in p {
+  margin-bottom: 0px;
+}
