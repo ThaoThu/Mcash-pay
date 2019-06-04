@@ -7,9 +7,9 @@ export default class Nav extends Component {
     <div className ="header-nav">
         <div className="container">
             <div className="row">
-                <nav className="navbar navbar-expand-sm navbar-light  col-12">
+                <nav className="navbar navbar-expand-xl navbar-light  col-12">
                     <a className="navbar-brand" href="#"><img className="img-fluid" src={logo}></img></a>
-                    <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    <button className="navbar-toggler d-xl-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

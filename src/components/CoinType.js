@@ -8,7 +8,8 @@ class CoinType extends Component {
                 <h2 className="text-center main-color">Accept Bitcoint and Over 50 Altcoins</h2>
                 <div className="coin-type__description text-center">From the dev team lorem From the dev team lorem From the dev team lorem  </div>
                 <div className="container">
-                    <div className ="row d-flex justify-content-between">
+                    <div className ="row ">
+                        <div className = " col-12 d-flex justify-content-between">
                                 <div className="col-img">
                                     <img  src="https://picsum.photos/50/50"></img>
                                 </div>
@@ -24,10 +25,12 @@ class CoinType extends Component {
                                 <div className="col-img">
                                     <img  src="https://picsum.photos/50/50"></img>
                                 </div>
+                        </div>
                     </div>
                 </div>
                 <div className="container mt-30">
-                    <div className ="row d-flex justify-content-between">
+                    <div className ="row ">
+                        <div className = " col-12 d-flex justify-content-between">
                                 <div className="col-img">
                                     <img  src="https://picsum.photos/50/50"></img>
                                 </div>
@@ -43,10 +46,13 @@ class CoinType extends Component {
                                 <div className="col-img">
                                     <img  src="https://picsum.photos/50/50"></img>
                                 </div>
+                        </div>
                     </div>
+                    
                 </div>
                 <div className="container mt-30">
-                    <div className ="row d-flex justify-content-between">
+                    <div className ="row ">
+                        <div className = " col-12 d-flex justify-content-between">
                                 <div className="col-img">
                                     <img  src="https://picsum.photos/50/50"></img>
                                 </div>
@@ -62,6 +68,7 @@ class CoinType extends Component {
                                 <div className="col-img">
                                     <img  src="https://picsum.photos/50/50"></img>
                                 </div>
+                        </div>
                     </div>
                 </div>
             </div>

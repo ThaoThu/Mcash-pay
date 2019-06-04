@@ -5,22 +5,24 @@ export default class TrustBy extends Component {
     return (
         <div className="trust-by ">
             <h2 className="trust-by__title text-center main-color">Trust By</h2>
-            <div className="container mt-30">
-                <div className ="row d-flex justify-content-between">
-                        <div className="col-img">
-                            <img  src="https://picsum.photos/50/50"></img>
-                        </div>
-                        <div className="col-img">
-                            <img  src="https://picsum.photos/50/50"></img>
-                        </div>
-                        <div className="col-img">
-                            <img  src="https://picsum.photos/50/50"></img>
-                        </div>
-                        <div className="col-img">
-                            <img  src="https://picsum.photos/50/50"></img>
-                        </div>
-                        <div className="col-img">
-                            <img  src="https://picsum.photos/50/50"></img>
+                <div className="container mt-30">
+                    <div className ="row ">
+                        <div className = " col-12 d-flex justify-content-between">
+                                <div className="col-img">
+                                    <img  src="https://picsum.photos/50/50"></img>
+                                </div>
+                                <div className="col-img">
+                                    <img  src="https://picsum.photos/50/50"></img>
+                                </div>
+                                <div className="col-img">
+                                    <img  src="https://picsum.photos/50/50"></img>
+                                </div>
+                                <div className="col-img">
+                                    <img  src="https://picsum.photos/50/50"></img>
+                                </div>
+                                <div className="col-img">
+                                    <img  src="https://picsum.photos/50/50"></img>
+                                </div>
                         </div>
                     </div>
                 </div>

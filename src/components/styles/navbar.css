@@ -18,3 +18,8 @@
   color: rgba(16, 191, 112, 0.88869051);
   border-radius: 20px;
 }
+@media (max-width: 1200px) {
+  .border-item {
+    border: none!important;
+  }
+}
