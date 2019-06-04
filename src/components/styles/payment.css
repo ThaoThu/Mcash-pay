@@ -13,3 +13,13 @@
 .payment-feature .payment-feature__items .img {
   margin-right: 30px;
 }
+@media (min-width: 768px) {
+  .payment-feature__items {
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .full-height-items > div {
+    margin: 0 15px 10px;
+  }
+}

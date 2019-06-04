@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import logo from '../assets/images/logo.png'
+import {Icon} from 'antd'
 import './styles/navbar.less'
 export default class Nav extends Component {
   render() {
@@ -11,11 +12,14 @@ export default class Nav extends Component {
                     <a className="navbar-brand" href="#"><img className="img-fluid" src={logo}></img></a>
                     <button className="navbar-toggler d-xl-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon">
+                            <Icon type="menu" style={{color:'#fff'}}/>
+                            
+                        </span>
                     </button>
                     <div className="collapse navbar-collapse" id="collapsibleNavId">
                         <span className="form-inline my-2 my-lg-0 ml-auto">
-                        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
                             <li className="nav-item ">
                                 <a className="nav-link" href="#">Merchant Tools<span className="sr-only">(current)</span></a>
                             </li>

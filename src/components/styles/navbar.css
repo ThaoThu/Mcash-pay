@@ -2,6 +2,12 @@
   background: #06beb6;
   background: linear-gradient(90deg, #06beb6 0%, rgba(16, 191, 112, 0.88869051) 70%);
 }
+.header-nav .navbar-light .navbar-toggler-icon {
+  background-image: none;
+}
+.header-nav .navbar-light .navbar-toggler {
+  border-color: #fff;
+}
 .header-nav .navbar-nav .border-item {
   border: 1px solid #fff;
   border-radius: 20px;

@@ -9,8 +9,8 @@ export default class Footer extends Component {
       <footer >
           <div className="container">
             <div className="row primary-logo">
-                <p className="col-12 text">2013-2019 Coinpayments. Inc. All rights Reserved. Wallet Services provided by Hodtech OU licence number FH435</p>
-                <div className = "col-4 col-lg-2">
+                <p className="col-12 text mb-30 text-center">2013-2019 Coinpayments. Inc. All rights Reserved. Wallet Services provided by Hodtech OU licence number FH435</p>
+                <div className = "col-4 col-lg-2 ">
                     <div className ="footer-link">
                         <h5 className = "footer-link__title">COINT PAYMENT</h5>
                         <ul>

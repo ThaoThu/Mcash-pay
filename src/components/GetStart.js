@@ -7,21 +7,21 @@ export default class GetStart extends Component {
       <div className="get-start__wrapper">
           <div className="container">
               <div className="row">
-                  <div className="col-6">
+                  <div className="col-md-6 get-start__text">
                         <h3 className="get-start__title color-white mt-30 ">
                                     Your Trust Cryptp Payment
                         </h3>
                         <div className="get-start__content color-white mt-20">
                             <p>Empower your business with borderless payment method</p>
                             <p>Start accepting crytocurrency today</p>
-                            <button className="get-start__btn btn color-white  mt-20">Get Started</button>
+                            <button className="get-start__btn btn color-white  mt-20 mb-20">Get Started</button>
                         </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-md-6 get-start__slide ">
                         
                            <div id="carouselId" className="carousel slide" data-ride="carousel">
                                <ol className="carousel-indicators">
-                                   <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                                   <li data-target="#carouselId" data-slide-to="0" className="active"></li>
                                    <li data-target="#carouselId" data-slide-to="1"></li>
                                    <li data-target="#carouselId" data-slide-to="2"></li>
                                </ol>

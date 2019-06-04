@@ -9,9 +9,9 @@ export default class PaymentFeature extends Component {
           <h4 className ="payment-feature__title main-color">Payment Feature</h4>
           <div className="container">
                 <div className="row">
-                    <div className="col-6 col-border">
+                    <div className="col-md-6 col-border">
                         <div className="row full-height-items">
-                            <div className="payment-feature__items mr-30 ml-15 d-flex justify-content-between">
+                            <div className="payment-feature__items mr-30 ml-15 d-flex justify-content-between ">
                                 <div className="img">
                                     <img src="https://picsum.photos/60/60" className="f-left"></img>
 
@@ -26,9 +26,9 @@ export default class PaymentFeature extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6 col-border">
+                    <div className="col-md-6 col-border">
                         <div className="row full-height-items">
-                            <div className="payment-feature__items ml-30 mr-15  d-flex justify-content-between">
+                            <div className="payment-feature__items ml-30 mr-15  d-flex justify-content-between ">
                                 <div className="img">
                                     <img src="https://picsum.photos/60/60" className="f-left"></img>
 
@@ -43,9 +43,9 @@ export default class PaymentFeature extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6 col-border">
+                    <div className="col-md-6 col-border">
                         <div className="row full-height-items">
-                            <div className="payment-feature__items mr-30 ml-15 mt-60 d-flex justify-content-between">
+                            <div className="payment-feature__items mr-30 ml-15 mt-60 d-flex justify-content-between ">
                                 <div className="img">
                                     <img src="https://picsum.photos/60/60" className="f-left"></img>
 
@@ -60,9 +60,9 @@ export default class PaymentFeature extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6 col-border">
+                    <div className="col-md-6 col-border">
                         <div className="row full-height-items">
-                            <div className="payment-feature__items ml-30 mr-15 mt-60 d-flex justify-content-between">
+                            <div className="payment-feature__items ml-30 mr-15 mt-60 d-flex justify-content-between ">
                                 <div className="img">
                                     <img src="https://picsum.photos/60/60" className="f-left"></img>
 
