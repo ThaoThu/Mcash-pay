@@ -6,13 +6,15 @@ import BillPayment from './BillPayment';
 import Wallet from './Wallet';
 
 
+
 const App = () => <div>
   <BrowserRouter>
     <Switch>
         <Route   path='/home' component={Home}/>
-        <Route  path='/signup' component={Signup}/>
+        <Route  path='/signup/bill' component={Signup}/>
         <Route exact path='/bill' component={BillPayment}/>
         <Route exact path='/wallet' component={Wallet}/>
+      
        
     </Switch>
 </BrowserRouter>

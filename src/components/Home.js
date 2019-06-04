@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
+import Nav from './Nav';
 import GetStart from './GetStart';
 import PaymentFeature from './PaymentFeature';
 import CoinType from './CoinType';
@@ -12,13 +12,12 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Navbar></Navbar>
+                <Nav></Nav>
                 <GetStart></GetStart>
                 <PaymentFeature></PaymentFeature>
                 <CoinType></CoinType>
                 <TrustBy></TrustBy>
                 <Stragic></Stragic>
-                <Register></Register>
                 <Footer></Footer>
             </div>
         );

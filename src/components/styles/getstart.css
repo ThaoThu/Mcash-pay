@@ -1,7 +1,17 @@
 .get-start__wrapper {
-  padding: 20px;
+  background: linear-gradient(90deg, #06beb6 0%, rgba(16, 191, 112, 0.88869051) 70%);
+  padding: 80px;
 }
-.get-start__wrapper .slicer {
-  width: 500px!important;
-  margin: 0 auto;
+.get-start__wrapper .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.get-start__wrapper .get-start__content p {
+  margin-bottom: 0;
+}
+.get-start__wrapper .get-start__btn {
+  border-radius: 20px;
+  padding: 5px 35px !important;
+  background-color: #ff920a !important;
 }

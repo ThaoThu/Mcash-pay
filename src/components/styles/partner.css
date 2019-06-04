@@ -1,0 +1,11 @@
+.stragic-partner {
+  padding: 50px 0;
+  background: linear-gradient(90deg, #06beb6 0%, rgba(16, 191, 112, 0.88869051) 70%);
+}
+.stragic-partner__btn {
+  padding: 5px 35px !important;
+  background-color: #ff920a !important;
+}
+.stragic-partner__btn:hover {
+  opacity: 0.7;
+}

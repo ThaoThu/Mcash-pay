@@ -8,28 +8,36 @@ export default class GetStart extends Component {
           <div className="container">
               <div className="row">
                   <div className="col-6">
-                        <h3 className="get-start__title">
+                        <h3 className="get-start__title color-white mt-30 ">
                                     Your Trust Cryptp Payment
                         </h3>
-                        <div className="get-start__content">
+                        <div className="get-start__content color-white mt-20">
                             <p>Empower your business with borderless payment method</p>
                             <p>Start accepting crytocurrency today</p>
-                            <button className="get-start__btn btn btn-secondary">Get Started</button>
+                            <button className="get-start__btn btn color-white  mt-20">Get Started</button>
                         </div>
                   </div>
                   <div className="col-6">
                         
-                            <Carousel effect="fade" autoplay>
-                                <div >
-                                    <img className="d-block" src="https://picsum.photos/500/300"></img>
-                                </div>
-                                <div >
-                                    <img className="d-block" src="https://picsum.photos/500/300"></img>
-                                </div>
-                                <div >
-                                    <img className="d-block" src="https://picsum.photos/500/300"></img>
-                                </div>
-                            </Carousel>
+                           <div id="carouselId" className="carousel slide" data-ride="carousel">
+                               <ol className="carousel-indicators">
+                                   <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                                   <li data-target="#carouselId" data-slide-to="1"></li>
+                                   <li data-target="#carouselId" data-slide-to="2"></li>
+                               </ol>
+                               <div className="carousel-inner" role="listbox">
+                                   <div className="carousel-item active">
+                                       <img src="https://picsum.photos/500/300" alt="First slide" />
+                                   </div>
+                                   <div className="carousel-item">
+                                        <img src="https://picsum.photos/500/300" alt="First slide" />
+                                   </div>
+                                   <div className="carousel-item">
+                                        <img src="https://picsum.photos/500/300" alt="First slide" />
+                                   </div>
+                               </div>
+                              
+                           </div>
 
                     
 

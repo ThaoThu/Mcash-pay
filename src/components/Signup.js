@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Row,Col,Input,Select,Checkbox,Button} from 'antd'
 
-import './styles/signup.less'
+// import './styles/signup.less'
 export default class Signup extends Component {
   onChange=()=>{
     console.log('changing..')

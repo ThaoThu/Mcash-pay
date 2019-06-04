@@ -1,12 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
+.color-white {
+  color: white !important;
+}
+.main-color {
+  color: #ffaf4b;
 }
 .mb-20 {
   margin-bottom: 20px;
 }
 .mt-20 {
   margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
 }
 .mb-10 {
   margin-bottom: 10px;
@@ -17,8 +22,23 @@
 .mt-50 {
   margin-top: 50px;
 }
+.mt-60 {
+  margin-top: 60px;
+}
 .mr-50 {
   margin-right: 50px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.mr-30 {
+  margin-right: 30px;
 }
 .w-100 {
   width: 100%;

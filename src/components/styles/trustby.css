@@ -1,3 +1,13 @@
+.trust-by {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 100px;
+  background: #06beb6;
+  background: linear-gradient(90deg, #06beb6 0%, rgba(16, 191, 112, 0.88869051) 70%);
+}
+.trust-by h2 {
+  margin: 0 0 20px 0;
+}
 .trust-by__title {
   margin: 30px 0;
 }

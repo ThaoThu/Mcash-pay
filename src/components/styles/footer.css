@@ -1,5 +1,13 @@
 footer {
-  margin-top: 100px;
+  background: #eee;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+footer .text {
+  padding-right: 30px;
+}
+footer .btn-footer {
+  background-color: #ff920a !important;
 }
 footer .footer-link img {
   max-width: 128px!important;

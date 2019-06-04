@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './styles/bill.less'
+// import './styles/bill.less'
 export default class BillPayment extends Component {
   render() {
     return (
