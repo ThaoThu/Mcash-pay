@@ -1,9 +1,36 @@
-.coin-type{
-    margin-top:30px;
+.coin-type{ 
+    border: 1px solid #eee;
+    padding:50px 0;
+    div.container{
+       
+        margin-top:100px;
+        
+       
+    } 
+    &__imgs{
+        width: 100%;
+    }
     &__description{
         width: 350px;
         margin: 0 auto;
+        margin-top:40px;
         margin-bottom: 50px; 
     }
+   
+    
  
+}
+@media( max-width : 991px){
+    .coin-type{ 
+      
+        div.container{
+            margin-top:50px;
+           
+        }
+        &__description{
+            margin-top:20px;
+            margin-bottom: 25px; 
+        }
+    }
+
 }

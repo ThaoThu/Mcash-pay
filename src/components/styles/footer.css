@@ -1,16 +1,32 @@
 footer {
   background: #eee;
+  font-size: 14px;
+  font-weight: normal;
   padding-top: 60px;
   padding-bottom: 30px;
+  color: white!important;
+}
+footer .footer-div {
+  width: 860px;
+  margin: 0 auto;
+}
+footer h5 {
+  color: white!important;
 }
 footer .text {
   padding-left: 50px;
 }
 footer .btn-footer {
-  background-color: #ff920a !important;
+  padding: 2px 5px;
+  background: #f4b979;
+  background: linear-gradient(90deg, #f4b979 0%, #f7a22e 50%);
+}
+footer .footer-link__title {
+  font-size: 15px;
+  font-weight: normal;
 }
 footer .footer-link img {
-  max-width: 128px!important;
+  max-width: 112px;
 }
 footer .footer-link ul {
   margin: 0;

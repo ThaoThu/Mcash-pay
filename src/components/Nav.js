@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/logo_03.png'
+
 import {Icon} from 'antd'
 import './styles/navbar.less'
 export default class Nav extends Component {
   render() {
     return (
-    <div className ="header-nav">
+    <div  className ="header-nav">
         <div className="container">
-            <div className="row">
-                <nav className="navbar navbar-expand-xl navbar-light  col-12">
+            <div className="row " style={{position:'relative'}}>
+                <nav style={{position:'absolute'}} className="navbar navbar-expand-lg  navbar-light   col-12">
                     <a className="navbar-brand" href="#"><img className="img-fluid" src={logo}></img></a>
                     <button className="navbar-toggler d-xl-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +34,7 @@ export default class Nav extends Component {
                                 <a className="nav-link border-item" href="#">Login</a>
                             </li>
                             <li className="nav-item ">
-                                <a className="nav-link border-item" href="#">Sign Up</a>
+                                <a className="nav-link border-item" href="#">Sign up</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>

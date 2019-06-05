@@ -1,8 +1,12 @@
+.common-title {
+  font-size: 30px;
+  color: #f4bd87;
+}
 .color-white {
   color: white !important;
 }
 .main-color {
-  color: #ffaf4b;
+  color: #f4b979;
 }
 .mb-20 {
   margin-bottom: 20px;

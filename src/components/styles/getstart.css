@@ -1,4 +1,11 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
 .get-start__wrapper {
+  min-height: 100vh;
   background: linear-gradient(90deg, #06beb6 0%, rgba(16, 191, 112, 0.88869051) 70%);
   padding: 80px;
 }
@@ -12,8 +19,9 @@
 }
 .get-start__wrapper .get-start__btn {
   border-radius: 20px;
-  padding: 5px 35px !important;
-  background-color: #ff920a !important;
+  padding: 5px 45px !important;
+  background: #f4b979;
+  background: linear-gradient(90deg, #f4b979 0%, #f7a22e 50%);
 }
 @media (max-width: 768px) {
   .get-start__slide {

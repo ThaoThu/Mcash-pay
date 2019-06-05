@@ -23,8 +23,11 @@ module.exports = {
         compress: true,
         historyApiFallback: true,
     },
+ 
     plugins: [
-        
+      new webpack.ProvidePlugin({
+        App: path.resolve(__dirname, './html.js')
+      }),
         new MiniCssExtractPlugin({
             filename: 'style.css',
           }),

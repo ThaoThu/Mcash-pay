@@ -5,9 +5,23 @@
     }
    
     &__title{
-        text-align: center;
-        margin:30px 0;
+     
+        margin-left:40px ;
+        margin-bottom: 70px;
     }
+    &__icon li{
+        list-style-type: none;
+        margin-bottom:40px;
+        :last-child{
+            margin-bottom:0px;
+        }
+        display:flex;
+        justify-content: space-between;
+         img{
+        margin-right:30px;
+        }
+    }
+        
   .payment-feature__items{
         width: 100%;
         border:1px solid gray;
@@ -31,5 +45,18 @@
        margin:0 15px 10px;
 
    }
+
+}
+@media( max-width : 991px){
+    .payment-feature__img{
+        display: none;
+    }
+    .payment-feature{
+        h4,ul{
+            margin-left:0;
+            padding-left:0;
+        }
+
+    }
 
 }

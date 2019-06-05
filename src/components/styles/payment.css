@@ -2,8 +2,20 @@
   height: 100%;
 }
 .payment-feature__title {
-  text-align: center;
-  margin: 30px 0;
+  margin-left: 40px ;
+  margin-bottom: 70px;
+}
+.payment-feature__icon li {
+  list-style-type: none;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.payment-feature__icon li :last-child {
+  margin-bottom: 0px;
+}
+.payment-feature__icon li img {
+  margin-right: 30px;
 }
 .payment-feature .payment-feature__items {
   width: 100%;
@@ -21,5 +33,15 @@
 @media (max-width: 768px) {
   .full-height-items > div {
     margin: 0 15px 10px;
+  }
+}
+@media (max-width: 991px) {
+  .payment-feature__img {
+    display: none;
+  }
+  .payment-feature h4,
+  .payment-feature ul {
+    margin-left: 0;
+    padding-left: 0;
   }
 }

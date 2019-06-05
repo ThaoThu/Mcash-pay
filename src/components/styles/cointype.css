@@ -1,8 +1,25 @@
 .coin-type {
-  margin-top: 30px;
+  border: 1px solid #eee;
+  padding: 50px 0;
+}
+.coin-type div.container {
+  margin-top: 100px;
+}
+.coin-type__imgs {
+  width: 100%;
 }
 .coin-type__description {
   width: 350px;
   margin: 0 auto;
+  margin-top: 40px;
   margin-bottom: 50px;
+}
+@media (max-width: 991px) {
+  .coin-type div.container {
+    margin-top: 50px;
+  }
+  .coin-type__description {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
 }
