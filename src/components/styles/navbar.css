@@ -8,15 +8,8 @@
   border: 1px solid #fff;
   border-radius: 20px;
 }
-.header-nav .navbar-nav .dropdown-menu {
-  background: #b2b2b2 !important;
-}
 .header-nav .navbar-nav .dropdown-item,
 .header-nav .navbar-nav .dropdown-item {
-  color: #665b5b;
-}
-.header-nav .navbar-nav .dropdown-item.active,
-.header-nav .navbar-nav .dropdown-item:active {
   color: #665b5b;
 }
 .header-nav .navbar-nav .dropdown-item:hover,
@@ -26,7 +19,7 @@
   background: none;
 }
 .header-nav .navbar-nav .nav-item {
-  padding-left: 20px;
+  padding-left: 3px;
 }
 .header-nav .navbar-nav .nav-item .nav-link {
   font-size: 15px;
