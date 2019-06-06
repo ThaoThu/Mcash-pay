@@ -1,0 +1,89 @@
+html,body{
+    height:100%;
+}
+.receipt{
+    &__btn-wrapper{
+        margin:15px auto;
+        width:90%;
+       .receipt__btn{
+        background: rgb(244,185,121);
+        width: 100%;
+        background: linear-gradient(90deg, rgba(244,185,121,1) 0%, rgba(247,162,46,1) 50%);
+        } 
+    }
+    
+    font-size: 18px;
+    background:#eee;
+    height: 100vh;
+    h3{
+        font-size: 18px;
+        font-weight: 500;
+        color:#fdbd88;
+    }
+    .form-receipt{
+        width:500px;
+        background:#fff;
+        padding:25px;
+        border-radius: 5px;
+        &__text{
+           margin-bottom: 30px;
+        }
+        .receipt__help{
+            font-size: 13px;
+        }
+        &__check{
+            margin-top: 30px;
+            .receipt-check__title{
+                color:#373a39;
+            }
+            .receipt-check__description{
+                color:#c8cfce;
+                font-size: 14px;
+            }
+           
+        }
+    }
+    .color-gray{
+        color:#c8cfce;
+    }
+    .receipt-check__detail{
+        span{
+            display: inline-block;
+        }
+        margin-top: 43px;
+        .orange-text{
+            color:#fdbd88;
+        }
+         table{
+             border-top:1px solid #f6f6f7;
+          
+             font-size: 15px;
+                width: 100%;
+                     .order-number{
+                         margin-top:10px;
+                         background: #fddec3;
+                         padding:0px 8px;
+                         border-radius: 3px;
+                         
+                     }
+                }
+                .btn-outline-danger{
+                    color:#f27031;
+                    padding:1px 8px;
+                }
+                .order-time{
+                    font-size: 13px;
+                }
+               
+    }
+    .break-line{
+         border-bottom: 1px solid #f6f6f7;
+    }
+    .break-div{
+        position: relative;
+        border-bottom: 20px solid #f6f6f7;
+        width: 500px;
+        left: -24px;
+        top: 25px;
+    }
+}

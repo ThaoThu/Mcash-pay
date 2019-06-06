@@ -1,14 +1,71 @@
 .bill-pay {
+  height: 100vh;
+  color: #c8cfce;
   width: 500px;
   margin: 0 auto;
   margin-top: 50px;
 }
+.bill-pay .bill-pay__item2 {
+  font-size: 12px;
+}
+.bill-pay__loading {
+  margin-top: 25px;
+}
+.bill-pay__loading .orange-color {
+  font-size: 20px;
+  font-style: italic;
+}
+.bill-pay__loading span {
+  font-size: 10px;
+  color: #c8cfce;
+}
+.bill-pay .orange-color {
+  color: #fdbd88 !important;
+}
+.bill-pay__header span:first-child {
+  font-size: 14px;
+}
+.bill-pay__header span:last-child {
+  font-size: 12px;
+}
+.bill-pay img {
+  border: 1px solid #dadada;
+  padding: 3px;
+}
+.bill-pay .bill-pay__detail div span {
+  color: #373a39;
+}
+.bill-pay .bill-pay__instruction {
+  margin-top: 35px;
+}
+.bill-pay__detail-item {
+  font-size: 15px;
+  color: #373a39;
+}
+.bill-pay__detail-item .time {
+  font-size: 24px;
+}
+.bill-pay h3 {
+  font-size: 30px;
+  color: #373a39;
+  border-bottom: 50px;
+  margin-bottom: 30px;
+}
 .bill-pay .login-legend {
-  margin: 20px;
-  width: 137px;
+  position: absolute;
+  display: inline-block;
+  color: #fdbd88;
+  background: #fff;
+  top: -6px;
+  width: 95px;
+  padding-left: 7px;
+  left: 10px;
+  font-size: 14px;
+  font-style: italic;
 }
 .bill-pay .my-fieldset {
-  border: 2px solid;
-  padding: 0 15px;
+  border: 0.5px solid #dadada;
+  padding: 45px 40px 25px 40px;
   margin-bottom: 30px;
+  position: relative;
 }

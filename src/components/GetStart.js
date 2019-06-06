@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col ,Carousel} from 'antd';
-import navBg from '../assets/images/nav-bg_01.png'
+import navBg from '../assets/images/background_banner.png'
 import './styles/getstart.less'
 export default class GetStart extends Component {
   render() {

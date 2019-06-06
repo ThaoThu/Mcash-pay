@@ -1,0 +1,85 @@
+html,
+body {
+  height: 100%;
+}
+.receipt {
+  font-size: 18px;
+  background: #eee;
+  height: 100vh;
+}
+.receipt__btn-wrapper {
+  margin: 15px auto;
+  width: 90%;
+}
+.receipt__btn-wrapper .receipt__btn {
+  background: #f4b979;
+  width: 100%;
+  background: linear-gradient(90deg, #f4b979 0%, #f7a22e 50%);
+}
+.receipt h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fdbd88;
+}
+.receipt .form-receipt {
+  width: 500px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+}
+.receipt .form-receipt__text {
+  margin-bottom: 30px;
+}
+.receipt .form-receipt .receipt__help {
+  font-size: 13px;
+}
+.receipt .form-receipt__check {
+  margin-top: 30px;
+}
+.receipt .form-receipt__check .receipt-check__title {
+  color: #373a39;
+}
+.receipt .form-receipt__check .receipt-check__description {
+  color: #c8cfce;
+  font-size: 14px;
+}
+.receipt .color-gray {
+  color: #c8cfce;
+}
+.receipt .receipt-check__detail {
+  margin-top: 43px;
+}
+.receipt .receipt-check__detail span {
+  display: inline-block;
+}
+.receipt .receipt-check__detail .orange-text {
+  color: #fdbd88;
+}
+.receipt .receipt-check__detail table {
+  border-top: 1px solid #f6f6f7;
+  font-size: 15px;
+  width: 100%;
+}
+.receipt .receipt-check__detail table .order-number {
+  margin-top: 10px;
+  background: #fddec3;
+  padding: 0px 8px;
+  border-radius: 3px;
+}
+.receipt .receipt-check__detail .btn-outline-danger {
+  color: #f27031;
+  padding: 1px 8px;
+}
+.receipt .receipt-check__detail .order-time {
+  font-size: 13px;
+}
+.receipt .break-line {
+  border-bottom: 1px solid #f6f6f7;
+}
+.receipt .break-div {
+  position: relative;
+  border-bottom: 20px solid #f6f6f7;
+  width: 500px;
+  left: -24px;
+  top: 25px;
+}

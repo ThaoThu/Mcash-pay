@@ -1,3 +1,6 @@
+.bold {
+  font-weight: 500;
+}
 .common-title {
   font-size: 30px;
   color: #f4bd87;
@@ -5,44 +8,17 @@
 .color-white {
   color: white !important;
 }
+.color-gray {
+  color: #dadada !important;
+}
 .main-color {
   color: #f4b979;
 }
-.mb-20 {
-  margin-bottom: 20px;
+.ml-20 {
+  margin-left: 20px;
 }
-.mt-20 {
-  margin-top: 20px;
-}
-.mt-30 {
-  margin-top: 30px;
-}
-.mb-10 {
-  margin-bottom: 10px;
-}
-.mb-50 {
-  margin-bottom: 50px;
-}
-.mt-50 {
-  margin-top: 50px;
-}
-.mt-60 {
-  margin-top: 60px;
-}
-.mr-50 {
-  margin-right: 50px;
-}
-.mr-15 {
-  margin-right: 15px;
-}
-.ml-15 {
-  margin-left: 15px;
-}
-.ml-30 {
-  margin-left: 30px;
-}
-.mr-30 {
-  margin-right: 30px;
+.mr-20 {
+  margin-right: 20px;
 }
 .w-100 {
   width: 100%;

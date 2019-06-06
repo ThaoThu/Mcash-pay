@@ -1,0 +1,9 @@
+.receipt {
+  background: #eee;
+}
+.receipt .form-receipt {
+  width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 5px;
+}
