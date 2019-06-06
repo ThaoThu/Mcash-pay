@@ -1,46 +1,53 @@
-.sign-in {
-  overflow-y: hidden;
+.forgot h3 {
+  font-size: 22px;
+  color: #3c3c3b;
 }
-.sign-in__container .gray-color {
+.forgot .emailcode,
+.forgot .getcode {
+  height: 50px !important;
+  background: #ececec!important;
+}
+.forgot .emailcode {
+  padding-left: 30px;
+  width: 250px;
+  margin-right: 4px;
+}
+.forgot__container .gray-color {
   color: #c9c9c9!important;
 }
-.sign-in__bottom,
-.sign-in__fail {
+.forgot__bottom,
+.forgot__fail {
   font-size: 13px;
 }
-.sign-in__input {
+.forgot__input {
   padding-left: 30px !important;
   height: 50px!important;
   background: #ececec!important;
 }
-.sign-in__input:focus {
+.forgot__input:focus {
   border-color: #f4b979 !important;
   box-shadow: none!important;
 }
-.sign-in__wrapper {
-  height: 100vh;
-  background: #eee;
-}
-.sign-in__container {
+.forgot__container {
   background: #fff;
   width: 490px;
   padding: 50px 60px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
-.sign-in__title {
+.forgot__title {
   margin-bottom: 40px;
   font-size: 22px;
   color: #3c3c3b;
 }
-.sign-in__btn {
-  margin-top: 30px;
+.forgot__btn {
+  margin-top: 15px;
   margin-bottom: 10px;
   height: 50px;
   background: #f4b979;
   background: linear-gradient(90deg, #f4b979 0%, #f7a22e 50%);
   border: none!important;
 }
-.sign-in p {
+.forgot p {
   margin-bottom: 0px;
 }

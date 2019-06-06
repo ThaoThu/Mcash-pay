@@ -12,8 +12,8 @@ body {
   width: 90%;
 }
 .receipt__btn-wrapper .receipt__btn {
-  background: #f4b979;
   width: 100%;
+  background: #f4b979;
   background: linear-gradient(90deg, #f4b979 0%, #f7a22e 50%);
 }
 .receipt h3 {

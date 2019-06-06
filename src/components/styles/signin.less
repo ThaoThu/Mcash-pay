@@ -1,13 +1,49 @@
 .sign-in{
-    width: 500px;
-    margin:0 auto;
-    padding: 50px;
+    &__container{
+        .gray-color{
+            color:#c9c9c9!important;
+        }
+
+    }
+    &__bottom,&__fail{
+        font-size: 13px;
+    }
+    &__input{
+            padding-left:30px !important;
+            height:50px!important;
+            background:#ececec!important;
+            &:focus{
+                border-color: rgba(244,185,121,1)!important;
+                box-shadow: none!important;
+            }
+        }
+  
+    &__wrapper{
+        height:100vh;
+        background:#eee;
+    }
+    &__container{
+        background:#fff;
+        width: 490px;
+        padding: 50px 60px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+        border-radius:5px;
+    }
+   
+     
+    overflow-y: hidden;
     &__title{
-        margin-bottom: 50px;
+        margin-bottom: 40px;
+        font-size: 22px;
+        color:#3c3c3b;
     }
     &__btn{
         margin-top:30px;
         margin-bottom:10px;
+        height:50px;
+        background: rgb(244,185,121);
+        background: linear-gradient(90deg, rgba(244,185,121,1) 0%, rgba(247,162,46,1) 50%);
+        border:none!important;
     }
     p{
         margin-bottom: 0px

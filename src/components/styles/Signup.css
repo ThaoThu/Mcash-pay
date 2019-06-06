@@ -1,12 +1,78 @@
-.signup-wrapper {
-  border: 1px solid black;
-  margin-top: 100px;
-  padding: 10px;
+.sign-up .ant-select-selection__rendered {
+  padding-left: 20px;
 }
-.signup-wrapper .signup-label {
+.sign-up .getcode {
+  height: 50px !important;
+  background: #ececec!important;
+}
+.sign-up .ant-select-selection {
+  height: 50px;
+  background: #ececec!important;
+}
+.sign-up .lastname,
+.sign-up .firstname,
+.sign-up .emailcode,
+.sign-up .select {
+  height: 50px !important;
+}
+.sign-up .ant-select-arrow {
+  color: #f4b979 !important;
+}
+.sign-up .emailcode {
+  width: 280px;
+  margin-right: 4px;
+}
+.sign-up .firstname {
+  width: 220px!important;
+  margin-right: 4px;
+}
+.sign-up .select {
+  position: relative;
+}
+.sign-up .break {
+  position: absolute;
+  height: 40px;
+  right: 38px;
+  top: 6px;
+  z-index: 99;
+  border-right: 1px solid #f4b979;
+}
+.sign-up__container .gray-color {
+  color: #c9c9c9!important;
+}
+.sign-up__bottom,
+.sign-up__fail {
+  font-size: 13px;
+}
+.sign-up__input {
+  padding-left: 30px !important;
+  height: 50px!important;
+  background: #ececec!important;
+}
+.sign-up__input:focus {
+  border-color: #f4b979 !important;
+  box-shadow: none!important;
+}
+.sign-up__container {
+  background: #fff;
+  width: 490px;
+  padding: 50px 60px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.sign-up__title {
+  margin-bottom: 40px;
+  font-size: 22px;
+  color: #3c3c3b;
+}
+.sign-up__btn {
+  margin-top: 15px;
   margin-bottom: 10px;
-  display: block;
+  height: 50px;
+  background: #f4b979;
+  background: linear-gradient(90deg, #f4b979 0%, #f7a22e 50%);
+  border: none!important;
 }
-.signup-wrapper .input-code {
-  width: 85px;
+.sign-up p {
+  margin-bottom: 0px;
 }

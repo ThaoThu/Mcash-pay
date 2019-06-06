@@ -39,8 +39,8 @@ export default class Nav extends Component {
                                 <a className="nav-link" href="#">Transactions<span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
-                                <div className="dropdown-menu" aria-labelledby="dropdownId">
+                                <a className="nav-link " href="#" id="dropdownId" >Account</a>
+                                <div className="dropdown-menu">
                                     <a className="dropdown-item" href="#">My wallet</a>
                                     <a className="dropdown-item" href="#">Api Key</a>
                                     <a className="dropdown-item" href="#">Security Setting</a>

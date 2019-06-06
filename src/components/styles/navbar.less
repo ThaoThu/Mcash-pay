@@ -1,5 +1,12 @@
 
 .header-nav{
+  .dropdown{
+    position: relative;
+  }
+  .dropdown:hover .dropdown-menu {
+     display: block;
+     position:absolute;    
+      top: 23px;}
   .navbar-light .navbar-toggler-icon {
      background-image: none;
   }
@@ -49,6 +56,7 @@
     }
   }
 }
+
 @media( max-width : 1200px){
   .border-item{
     border:none!important;
